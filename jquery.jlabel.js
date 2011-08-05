@@ -109,7 +109,8 @@
 					'text-transform'	: $input.css('text-transform'),
 					'color'				: $input.css('color'),
 					'cursor'			: $input.css('cursor'),
-					'display'			: 'inline-block'
+					'display'			: 'inline-block',
+					'vertical-align'		: 'top'
 				});
 
 			// Stop the label from being selectable and position it relative to it's input
@@ -158,7 +159,7 @@
 		speed 	: 200,
 		opacity : 0.4,
 		xShift 	: 2,
-		yShift 	: 0
+		yShift 	: 4
 	};
 
 })(jQuery);
